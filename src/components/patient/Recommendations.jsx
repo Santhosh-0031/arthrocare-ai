@@ -107,13 +107,14 @@ const Recommendations = () => {
 
       console.log("📤 Sending data to recommendations API:", requestData);
 
-      const response = await fetch('http://localhost:5001/api/generate-recommendations', {
-        method: 'POST',
-        headers: { 
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(requestData)
-      });
+const response = await fetch(
+  `${import.meta.env.VITE_BACKEND_URL}/api/generate-recommendations`,
+  {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(requestData)
+  }
+);
 
       if (!response.ok) {
         throw new Error(`API error: ${response.status}`);

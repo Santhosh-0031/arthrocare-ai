@@ -20,7 +20,7 @@ import { auth, db } from "../../firebase/config";
 import { onAuthStateChanged } from "firebase/auth";
 import CardTransition from '../animations/CardTransition';
 
-const backendURL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
+const backendURL = import.meta.env.VITE_BACKEND_URL;
 
 const RiskPrediction = () => {
   const [predictionData, setPredictionData] = useState(null);
