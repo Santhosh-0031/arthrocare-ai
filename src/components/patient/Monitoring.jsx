@@ -99,7 +99,7 @@ const Monitoring = () => {
 
           console.log("🚀 Sending prediction request for:", payload);
 
-          const backendURL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
+          const backendURL = import.meta.env.VITE_BACKEND_URL;
           const response = await fetch(`${backendURL}/api/predict-ra-risk`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
