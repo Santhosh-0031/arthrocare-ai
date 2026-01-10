@@ -67,8 +67,8 @@ arthrocare-ai/
 - Deployment: Docker / Render (config included)
 
 ## Live Demo
-Frontend: https://arthrocare-ai.vercel.app
-Backend: Hosted via Render
+- Frontend: https://arthrocare-ai.vercel.app
+- Backend: Hosted via Render
 
 ## Limitations
 
@@ -78,5 +78,5 @@ Backend: Hosted via Render
 
 ## Contributors
 
-[@Santhosh Kumar R](https://github.com/Santhosh-0031)
-[@Amaljosh Maadhav J](https://github.com/amaljoshmaadhavj)
+- [@Santhosh Kumar R](https://github.com/Santhosh-0031)
+- [@Amaljosh Maadhav J](https://github.com/amaljoshmaadhavj)
